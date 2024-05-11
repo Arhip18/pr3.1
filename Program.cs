@@ -30,6 +30,11 @@ namespace ConsoleApp_пр_3
                 c = a - b;
                 Console.WriteLine("Ответ: " + c);
             }
+            if (znak == '-')
+            {
+                c = a * b;
+                Console.WriteLine("Ответ: " + c);
+            }
         }
     }
 }
